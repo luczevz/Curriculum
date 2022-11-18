@@ -1,0 +1,103 @@
+/* font-family: 'Courgette', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Handlee', cursive;
+    font-family: 'Sawarabi Gothic', sans-serif; */
+
+
+    #header {
+
+        background-color: rgb(36, 181, 238);
+        margin-top: 50px;
+        margin-bottom: 50px;
+        
+        font-family: 'Handlee', cursive;       
+    }
+
+    #nameAndTitle {
+        font-family: 'Dancing Script', cursive;
+        background-color: white;
+        width: 350px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #nameAndTitle h1, h2 h3{
+        font-family: 'Dancing Script', cursive;
+        margin: 0;
+
+    }
+
+    h1, h2, h3{
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+                    
+    }
+
+    #contact {
+        
+        font-family: 'Handlee', cursive;   
+        list-style-type: none;
+    }
+
+    #contact i {
+        width: 30px;
+        color: rgb(36, 181, 238);
+        
+        
+    }
+
+    #social i {
+        color: rgba(161, 30, 30, 0.747);
+        list-style-type: none;
+        width: 30px;
+    }
+
+    #social   { 
+        font-family: 'Handlee', cursive; 
+        list-style-type: none;
+    }
+
+    #social a {
+        color:black;
+    }
+
+    #custom {
+        
+        font-family: 'Handlee', cursive; 
+        list-style-type: none;
+    }
+
+    #container {
+
+        display: grid;
+        grid-template-columns: 30% auto;
+        grid-column-gap: 20px;
+    }
+
+    #sidebar, #content {
+
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+
+
+    }
+
+    .card h3 {
+        font-family: 'Dancing Script', cursive;
+        text-align: center;
+
+    }
+
+    .card {
+        
+        font-family: 'Handlee', cursive;
+        border:1px solid   rgb(36, 181, 238);
+        border-radius:  15px;
+        padding: 10px;
+
+    }
+    
+
+
+
